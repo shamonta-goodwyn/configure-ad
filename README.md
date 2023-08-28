@@ -1,14 +1,9 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/Cxfcc5D.png" alt="Microsoft azure logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+<h1>Configuring Active Directory within Azure VMs</h1>
+This tutorial outlines the prerequisites, installation, and configuration of Active Directory.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -19,14 +14,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
+- Windows Data Center Server</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Azure Account
+- Microsoft Remote Desktop (Mac)
 
 <h2>Installation Steps</h2>
 
