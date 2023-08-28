@@ -53,7 +53,7 @@ You want to start by downloading Microsoft Remote Desktop if you're on Mac. Next
 <img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+You will then need to set DC-1 NIC to static from dynamic so the IP address doesn't change. You do this by going to the network tab on the DC-1 VM. You then select the NIC. IP Configurations will be next selection. Right after select ipconfig and chnge the setting to static. You will need to perform an ICMP or ping from VM to DC-1. To do this you must make a open port in the firewall for them to talk to each other. You must use the IP address in MRD (microsoft remote desktop) to do this in the terminal. input the command ping -t and the private IP address of DC-1.
 </p>
 <br />
 
