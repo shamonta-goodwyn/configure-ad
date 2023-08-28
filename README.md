@@ -24,10 +24,28 @@ This tutorial outlines the prerequisites, installation, and configuration of Act
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LJ3kkWf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/P9CFKaQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/WfAcA4c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/VXCDHZj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/PjRicuj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/6k0wQFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/rd88DbL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You want to start by downloading Microsoft Remote Desktop if you're on Mac. Next you will make an Azure account. Once that is made you will make a resource group. In the group will be 2 VMs. The first VM will be the Directory Controller which you will pick the Windows Data Center VM. The second VM you make will be a regular Windows 10 VM. Make sure they are in the same region and give the Windows 10 VM the same network that the WIndows Data Center VM have. To make this simple I will refer to them as DC-1 and VM1.
 </p>
 <br />
 
