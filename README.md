@@ -61,18 +61,57 @@ You will then need to set DC-1 NIC to static from dynamic so the IP address does
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qvjy4Z7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/Tv79iox.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/Sc1vtX4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/XNZgPnY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/Jg3ktpy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/ubPBOKN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/ItaroRc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/VCN78rC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/ndF5HMM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next you will use Remote Desktop to view or VM GUI. Once in you will need to open the firewall on DC-1 to allow ICMP from VM1. DO this by go to DC-1 start menu and then type in WF.MSC and then selecting inbound rules. Filter by protocol and enable the two selected rules as shown in picture. You will then go to VM1 terminal and ping the private IP address of DC-1. If you get packets back then you know it is good. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LrNXW1k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/vUGfr2d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/ub0T83Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/hC7MVW5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/kH8Jd9A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/TnPpznL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+We are going to now install active directory on DC-1 and promote it to domain controller. In server manager click add features and services. click next through and select active directory and services and keep clicking next and install. Click the flag up in the right hand corner and click promote this server to domain controller. You will then select add new forest and put in anything for the domain. I simply put mydomain.com. you will then click next through everything and install and it should restart your VM automactically. 
 </p>
 <br />
 
